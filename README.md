@@ -1,6 +1,13 @@
 # TP2-java
 ## Exercice 1:
+
 ## Exercice 2:
+Ce programme implémente une hiérarchie d'employés dans une organisation, avec des classes pour des rôles spécifiques (Ingénieur et Manager) héritant d'une classe abstraite `Employe`.
+
+- **Employe** (classe abstraite) : Classe de base pour tous les employés, contenant des informations communes et des méthodes abstraites pour le calcul de salaire.
+- **Ingenieur** : Classe dérivée de `Employe`, représentant les ingénieurs avec une spécialité spécifique (le salaire est calculé avec une majoration de 15%).
+- **Manager** : Classe dérivée de `Employe`, représentant les managers avec un service spécifique (le salaire est calculé avec une majoration de 20%).
+- **Main** : Classe principale pour exécuter l'application et afficher les informations des employés.
 
 ## Exercice 3:
 Ce programme fournit une application de gestion de commandes pour des clients, des ordinateurs et leurs catégories associées.
