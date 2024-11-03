@@ -16,14 +16,15 @@ L'interface IMetierProduit définit les méthodes pour la gestion des produits.
 Cette classe implémente l'interface IMetierProduit et fournit la logique de gestion des produits en utilisant une liste d'objets Produit.
 
 #### Classe Application:
-La classe Application est la classe principale qui contient la méthode main. Elle permet à l'utilisateur d'interagir avec le programme via un menu en console. Cette classe :
+La classe Application est la classe principale qui contient la méthode main. Elle permet à l'utilisateur d'interagir avec le programme via un menu en console. Alors l'utilisateur peut:
 
-Crée une instance de MetierProduitImpl pour gérer la liste de produits.
-Affiche un menu dans une boucle while qui permet de sélectionner les actions suivantes :
-Afficher la liste de tous les produits.
-Rechercher des produits par nom.
-Ajouter un nouveau produit.
-Rechercher et afficher un produit par ID.
-Supprimer un produit par ID.
-Quitter le programme.
+- Crée une instance de MetierProduitImpl pour gérer la liste de produits.
+- Affiche un menu dans une boucle while qui permet de sélectionner les actions suivantes :
+- Afficher la liste de tous les produits.
+- Rechercher des produits par nom.
+- Ajouter un nouveau produit.
+- Rechercher et afficher un produit par ID.
+- Supprimer un produit par ID.
+- Quitter le programme.
+
 Chaque option du menu exécute une méthode appropriée de l'instance MetierProduitImpl et affiche les résultats.
